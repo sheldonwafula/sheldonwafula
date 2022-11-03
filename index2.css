@@ -49,6 +49,13 @@ ul li:hover{
     position: relative;
     display: none;
 }
+.close{
+    position: relative;
+    color:  rgb(240, 117, 9);
+    float: right;
+    display: none;
+    
+}
 
 .welcome{
     text-align: center;
@@ -60,6 +67,21 @@ span{
     color:  rgb(240, 117, 9);
 }
 
+
+.skills{
+    text-align: center;
+    align-items: center;
+    margin: 10% 5%;
+    
+
+}
+.row .skills-col{
+    background-color: rgb(248, 109, 10,0.7);
+    margin: 5% 3%;
+    border-radius: 10px;
+    display: flex;
+
+}
 
 
 
@@ -91,6 +113,8 @@ span{
     }
     .list-1{
         margin: 2% 5%;
+        display: none;
+        
     }
     
 .menu{
@@ -98,8 +122,21 @@ span{
     position: relative;
     float: right;
     display: block;
-    margin:3% 5% 5% 3% ;
+    margin:1% 2% 5% 3% ;
+
+}
+.close{
+    position: relative;
+    color:  rgb(240, 117, 9);
+    float: right;
+    display: block;
 
 }
 
+.row .skills-col{
+    background-color: rgb(248, 109, 10,0.7);
+    margin: 5% 3%;
+    border-radius: 10px;
+
+}
 }
