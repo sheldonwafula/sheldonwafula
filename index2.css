@@ -1,0 +1,105 @@
+
+.nav{
+
+    background-color: black;
+    height: 100vh;
+}
+
+
+.logo-image{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+.list-1{
+    margin: 5% 5%;
+}
+
+.unlist{
+    position: relative;
+    float: right;
+    list-style: none;
+    display: flex;
+    right: 10%;
+  
+ 
+}
+ul li{
+    margin: 0 5%;
+    color: rgb(240, 117, 9);
+    transition: 2s;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+
+
+.container-1{
+    background-color: black;
+  
+}
+
+
+.menu{
+    color: rgb(240, 117, 9);
+    position: relative;
+    display: none;
+}
+
+.welcome{
+    text-align: center;
+    color: white;
+    align-items: center;
+    line-height: 2;
+}
+span{
+    color:  rgb(240, 117, 9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:700px){
+   
+    
+    .unlist{
+        position: relative;
+        float: right;
+        list-style: none;
+        display: block;
+        margin: 1% 2%;
+        right: 5px;
+        background-color: black;
+    }
+    ul li{
+        margin: 15% 3%;
+        padding: 2% 3%;
+        color: rgb(240, 117, 9);
+    }
+    .list-1{
+        margin: 2% 5%;
+    }
+    
+.menu{
+    color: rgb(240, 117, 9);
+    position: relative;
+    float: right;
+    display: block;
+    margin:3% 5% 5% 3% ;
+
+}
+
+}
