@@ -1,7 +1,10 @@
-let open=document.querySelector('.menu');
+let navLinks=document.getElementById('navLinks');
+function showMenu() {
+    navLinks.style.right="0";
 
-open.addEventListner('click',openup)
-function openup(){
-    let list=document.querySelector('.list-1');
-    list.style.display="block"
+    
 }
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+
