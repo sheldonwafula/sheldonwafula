@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/profile2.jpg);
+    background-image: linear-gradient(rgba(77, 3, 29, 0.929),rgba(36, 4, 131, 0.7)),url(images/profile\ 4.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -24,6 +24,7 @@ nav img{
 .nav-links{
     flex: 1;
     text-align: right;
+   
 }
 .nav-links ul li{
     list-style: none;
@@ -32,7 +33,7 @@ nav img{
     position: relative;
 }
 .nav-links ul li a{
-    color: #fff;
+    color: rgb(238, 227, 227);
     text-decoration: none;
     font-size: 13px;
 }
@@ -40,7 +41,7 @@ nav img{
     content: '';
     width:0% ;
     height: 2px;
-    background:orange;
+    background:rgb(16, 2, 75);
     display: block;
     margin: auto;
     transition: 0.2s;
@@ -50,7 +51,7 @@ nav img{
 }
 .text-box{
     width: 90%;
-    color: #fff;
+    color: rgb(243, 239, 239);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -63,13 +64,13 @@ nav img{
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
-    color: #fff;
+    color: rgb(239, 234, 235);
 }
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
+    color: rgb(251, 244, 244);
+    border: 1px solid rgb(241, 234, 234);
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -77,8 +78,8 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid orange;
-    background:orange;
+    border: 1px solid rgb(4, 12, 79);
+    background:rgb(4, 25, 125);
     transition: 1s;
 
 }
@@ -95,7 +96,7 @@ nav .fa-solid{
                 }
                 .nav-links{
                     position: absolute;
-                    background:orange;
+                    background:rgb(3, 7, 119);
                     height: 100vh; 
                     width: 200px;
                     top: 0;
@@ -106,7 +107,7 @@ nav .fa-solid{
                 }  
                 nav .fa-solid{
                     display: block;
-                    color: #fff;
+                    color: rgb(244, 241, 241);
                     margin: 10px;
                     font-size: 22px;
                     cursor: pointer;
@@ -131,7 +132,7 @@ h1{
     
 }
 p{
-    color: #777;
+    color: rgb(10, 10, 11);
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -142,22 +143,22 @@ p{
     padding: 5%;
     margin-top: 5%;
     justify-content: space-between;
-    background-color:black;
+  
 }
 .course-col{
     flex-basis: 31%;
-    background: #fff3f3;
+    background: rgba(36, 4, 131, 0.7);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing:border-box;
     transition:0.5s;
-    color:orange;
+    color:rgb(8, 2, 63);
 }
 
 .fa-brands{
 
-    color: orange;
+    color: rgb(8, 3, 79);
 }
 h3{
     text-align: center;
@@ -210,14 +211,14 @@ h3{
     padding: auto;
 }
 .layer:hover{
-    background: orange;
+    background: rgb(21, 2, 79);
     height: 100%;
     width: 100%;
 }
 .layer:h3{
     width: 100%;
     font-weight: 500;
-    color: #fff;
+    color: rgb(4, 5, 83);
     font-size: 26px;
     bottom: 0px;
     left: 50%;
@@ -269,10 +270,11 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #fff3f3;
+    background:rgba(36, 4, 131, 0.7);
     padding: 25px;
     cursor: pointer;
     display: flex;
+    color: azure;
 
 }
 .testimonial-col img{
@@ -290,7 +292,7 @@ h3{
     text-align: left;
 }
 .testimonial-col .fa-solid{
-    color: orange;
+    color: rgb(10, 3, 78);
 }
 @media(max-width:700px){
     .testimonial-col img{
@@ -301,7 +303,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/profile2.jpg);
+    background-image: linear-gradient(rgba(4, 15, 112, 0.7),rgba(13, 13, 14, 0.7)),url(images/profile.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -309,13 +311,13 @@ h3{
     padding: 100px 0;
 }
 .cta h1{
-    color: #fff;
+    color: rgb(247, 239, 239);
     margin-bottom: 40px;
     padding: 0;
 }
 @media(max-width:700){
     .cta h1{
-        font-size: 24px;
+        font-size: 12px;
     }
 }
 .footer{
@@ -329,11 +331,11 @@ h3{
     font-weight: 600;
 }
 .icons .fa{
-    color:orange;
+    color:rgb(2, 15, 97);
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
 }
 .fa-heart-o{
-    color:orange;
+    color:rgb(3, 22, 75);
 }
