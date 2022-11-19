@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(77, 3, 29, 0.929),rgba(36, 4, 131, 0.7)),url(images/profile\ 4.jpg);
+    background-image: linear-gradient(rgba(14, 14, 14, 0.929),rgba(15, 14, 15, 0.7)),url(images/profile\ 4.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -31,9 +31,10 @@ nav img{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+    color: orangered;
 }
 .nav-links ul li a{
-    color: rgb(238, 227, 227);
+    color: orangered;
     text-decoration: none;
     font-size: 13px;
 }
@@ -41,7 +42,7 @@ nav img{
     content: '';
     width:0% ;
     height: 2px;
-    background:rgb(16, 2, 75);
+    background:orangered;
     display: block;
     margin: auto;
     transition: 0.2s;
@@ -58,8 +59,24 @@ nav img{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.text-box h1{
-    font-size: 62px;
+.shel{
+    font-size: 5em;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    color:orangered;
+    
+
+    animation: shel 3s steps(21) 1s forwards;
+
+}
+@keyframes shel {
+    to{
+        width: 21ch;
+    }
+
 }
 .text-box p{
     margin: 10px 0 40px;
@@ -70,16 +87,17 @@ nav img{
     display: inline-block;
     text-decoration: none;
     color: rgb(251, 244, 244);
-    border: 1px solid rgb(241, 234, 234);
+    border: 1px solid orangered;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
     position: relative;
     cursor: pointer;
+    border-radius: 20px;
 }
 .hero-btn:hover{
-    border: 1px solid rgb(4, 12, 79);
-    background:rgb(4, 25, 125);
+    border: 1px solid orangered;
+    background:orangered;
     transition: 1s;
 
 }
@@ -96,7 +114,8 @@ nav .fa-solid{
                 }
                 .nav-links{
                     position: absolute;
-                    background:rgb(3, 7, 119);
+                    background:rgb(9, 9, 9);
+                    
                     height: 100vh; 
                     width: 200px;
                     top: 0;
@@ -107,7 +126,7 @@ nav .fa-solid{
                 }  
                 nav .fa-solid{
                     display: block;
-                    color: rgb(244, 241, 241);
+                    color: orangered;
                     margin: 10px;
                     font-size: 22px;
                     cursor: pointer;
@@ -118,7 +137,7 @@ nav .fa-solid{
               
 
 }
-/*----course---*/
+/*----skills---*/
 .skills{
     width: 80%;
     margin: auto;
@@ -140,25 +159,25 @@ p{
 }
 .row{
     display: flex;
-    padding: 5%;
+    
     margin-top: 5%;
     justify-content: space-between;
   
 }
 .course-col{
     flex-basis: 31%;
-    background: rgba(36, 4, 131, 0.7);
+    background: orange;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin: 2%;
     padding: 20px 12px;
     box-sizing:border-box;
     transition:0.5s;
-    color:rgb(8, 2, 63);
+    color:black;
 }
 
 .fa-brands{
 
-    color: rgb(8, 3, 79);
+    color: orange;
 }
 h3{
     text-align: center;
@@ -210,15 +229,12 @@ h3{
     transition: 0.5s;
     padding: auto;
 }
-.layer:hover{
-    background: rgb(21, 2, 79);
-    height: 100%;
-    width: 100%;
-}
+
+
 .layer:h3{
     width: 100%;
     font-weight: 500;
-    color: rgb(4, 5, 83);
+    color: orangered;
     font-size: 26px;
     bottom: 0px;
     left: 50%;
@@ -270,11 +286,12 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background:rgba(36, 4, 131, 0.7);
+    background:orange;
     padding: 25px;
     cursor: pointer;
     display: flex;
     color: azure;
+    margin: 2%;
 
 }
 .testimonial-col img{
@@ -292,7 +309,7 @@ h3{
     text-align: left;
 }
 .testimonial-col .fa-solid{
-    color: rgb(10, 3, 78);
+    color: orangered;
 }
 @media(max-width:700px){
     .testimonial-col img{
@@ -303,7 +320,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(4, 15, 112, 0.7),rgba(13, 13, 14, 0.7)),url(images/profile.jpg);
+    background-image: linear-gradient(rgba(241, 121, 10, 0.7),rgba(8, 8, 8, 0.99)),url(images/profile.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -320,6 +337,12 @@ h3{
         font-size: 12px;
     }
 }
+
+.contact{
+    font-size: medium;
+    text-align: center;
+    margin: 5%;
+}
 .footer{
     width: 100%;
     text-align: center;
@@ -331,11 +354,11 @@ h3{
     font-weight: 600;
 }
 .icons .fa{
-    color:rgb(2, 15, 97);
+    color:orangered;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
 }
 .fa-heart-o{
-    color:rgb(3, 22, 75);
+    color:orangered;
 }
